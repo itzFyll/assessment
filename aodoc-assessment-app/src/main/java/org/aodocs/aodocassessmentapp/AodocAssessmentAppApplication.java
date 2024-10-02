@@ -15,12 +15,12 @@ public class AodocAssessmentAppApplication {
 		SpringApplication.run(AodocAssessmentAppApplication.class, args);
 	}
 
-	@Bean
+/* 	@Bean
 	public CommandLineRunner run(TestSheetSequenceService testSheetSequenceService) throws Exception {
 		return (String[] args) -> {
-//			testSheetSequenceService.testSequence("p.hamel@cleio.com");
+			testSheetSequenceService.testSequence("p.hamel@cleio.com");
 		};
-	}
+	} */
 
 	@Bean
 	public CommandLineRunner configureJWTToken(JwtService jwtService) throws Exception {

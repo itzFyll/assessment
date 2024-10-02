@@ -33,7 +33,7 @@ public class SheetsController {
     @PostMapping("/sheets")
     @ResponseStatus(HttpStatus.CREATED)
     public ResponseEntity launchTestSheetsSequence(
-            @RequestHeader(name="Authorization") String token,
+            @RequestHeader(name="Authorization", required = false) String token,
             @Valid @RequestBody(required = false) EmailDto email) throws IOException {
         // Really basic auth, should use SecurityFilterChain
         if(!_jwtService.verifyToken(token)) {
