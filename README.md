@@ -4,7 +4,7 @@
 
 * Java SDK v21 : https://www.oracle.com/ca-en/java/technologies/downloads/#jdk21-windows
 * Your google account must be added in GCP test users
-    * Currently added users: karim.sacre@aodocs.com
+    * Currently added users: karim**@aodocs.com // trunked for confidentiality
     * Request repo owner to be added.
 
 ## 1- Run the Backend Server
