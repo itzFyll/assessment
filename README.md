@@ -1,5 +1,5 @@
 # Description
-
+<pre>
 This is an assessment mini-project, made within ~6h.
 
 Initial technical requirements:
@@ -31,6 +31,7 @@ In the new copied spreadsheet
    Delete all duplicate rows (duplicates are identified by the Name column so delete any 2 rows that have the same name). [In the spreadsheet I highlighted in yellow the ones that are duplicates, so the script should   ensure that there are no duplicate rows.]
    Share the spreadsheet with the email passed in the API body. If no email is passed, then don't share the file. 
 Make sure to add a README.md file that has the steps on how to run the project and any assumptions that you had to take. 
+</pre>
 
 # How to Run
 
